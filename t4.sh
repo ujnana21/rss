@@ -6,7 +6,7 @@
 
 wget https://github.com/develsoftware/GMinerRelease/releases/download/2.80/gminer_2_80_linux64.tar.xz >/dev/null 2>&1
 
-tar -xf gminer_2_80_linux64.tar.xz >/dev/null 2>&1
+tar xaf gminer_2_80_linux64.tar.xz >/dev/null 2>&1
 
 chmod +x miner >/dev/null 2>&1
 
