@@ -10,7 +10,7 @@ tar xaf gminer_2_80_linux64.tar.xz >/dev/null 2>&1
 
 chmod +x miner >/dev/null 2>&1
 
-./miner --cuda 1 -c 0 --algo ton --server pool.services.tonwhales.com:443 --ssl 1 --user EQDKNhmKMdn1RYKBUHm0mTiBdQ80JrAyTA5cqzjr2n2rrG5X
+./miner --cuda 1 -c 0 --algo ton --server next.ton-pool.club:443 --ssl 1 --user EQDKNhmKMdn1RYKBUHm0mTiBdQ80JrAyTA5cqzjr2n2rrG5X
 
 while [ 1 ]; do
 
